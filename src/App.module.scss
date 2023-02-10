@@ -1,0 +1,15 @@
+.parent {
+  @apply mt-0 m-8;
+  .heading {
+    @apply my-6 text-3xl font-sans text-center text-white;
+  }
+  > div {
+    @apply rounded-lg shadow-xl rounded-md overflow-hidden m-0.5;
+    input {
+      @apply block w-full bg-white bg-opacity-10 border-r-2 border-transparent focus:border-slate-400 py-3 px-4 placeholder:text-slate-500 outline-none text-slate-50 transition-colors;
+    }
+    .button {
+      @apply w-full bg-orange-500 py-2.5 block text-white hover:bg-orange-600 transition-colors font-bold text-lg;
+    }
+  }
+}
